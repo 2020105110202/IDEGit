@@ -51,5 +51,6 @@ public class Calculateor {
         Calculate cal=new Calculate();
         cal.doCalculate(new Sub(),op1,op2);
         cal.doCalculate(new Add(),op1,op2);
+        cal.doCalculate(new Mul(),op1,op2);
     }
 }
