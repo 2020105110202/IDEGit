@@ -30,6 +30,14 @@ class Sub implements ICalculate{
         return result;
     }
 }
+class Div implements ICalculate{
+    private int result;
+    public int calculate(int m,int n){
+        result=m/n;
+        System.out.println(m+"/"+n+"="+result);
+        return result;
+    }
+}
 class Mul implements ICalculate{
     private int result;
     public int calculate(int m,int n){
