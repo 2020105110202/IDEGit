@@ -9,7 +9,6 @@ interface ICalculate{
 }
  class Calculate {
     public void doCalculate(ICalculate cal,int a,int b){
-
         cal.calculate(a,b);
     }
 
@@ -17,7 +16,7 @@ interface ICalculate{
 class Sub implements ICalculate{
     private int result;
     public int calculate(int m,int n){
-        result=m-n;
+        result=m - n;
         System.out.println(m+"-"+n+"="+result);
         return result;
     }
