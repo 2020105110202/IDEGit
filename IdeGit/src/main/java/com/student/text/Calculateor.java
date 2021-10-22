@@ -13,6 +13,15 @@ interface ICalculate{
     }
 
 }
+class Add implements ICalculate{
+
+    private int result;
+    public int calculate(int m,int n){
+        result=m+n;
+        System.out.println(m+"+"+n+"="+result);
+        return result;
+    }
+}
 class Sub implements ICalculate{
     private int result;
     public int calculate(int m,int n){
